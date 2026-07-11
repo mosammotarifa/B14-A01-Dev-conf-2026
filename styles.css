@@ -9,7 +9,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
@@ -213,7 +213,7 @@ header{
     font-size:0.875rem ;
     font-weight: 600;
     color: #2563EB;
-    padding: 11px 106.33px;
+    padding: 11px 100px;
     margin-top: 20px;
     width: 100%;
 }
@@ -254,6 +254,29 @@ header{
     width: 100%;
 }
  /* Secure Your Spot end */
+ /* Event Schedule start*/
+    .skills-cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        margin-top: 20px;
+        
+    }
+    .single-skill-card{
+        padding: 10px;
+        border:   0.5px solid #E5E7EB;
+        border-radius: 12px;
+        text-align: center;
+    }
+    .skill-description{
+        margin-top: 10px;
+    }
+    .explore-track{
+        width: 100%;
+        margin-top: 10px;
+    }
+ /* Event Schedule end */
+
 
  /* footer-start */
  footer{
@@ -278,5 +301,5 @@ header{
  .footer-middle-part{
     display: flex;
     flex-direction: column;
-    
  }
+ /* footer styles end */
