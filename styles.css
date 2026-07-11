@@ -9,13 +9,14 @@
 *{
     margin: 0px;
     padding: 0px;
+    /* border: 1px solid red; */
    
 }
 
 
 /* nav bar styles start */
 nav{
-    width:1320px ;
+    max-width: 1320px;
     margin: 23.5px auto;
     display: flex; 
     justify-content: space-between; 
@@ -51,19 +52,18 @@ nav{
 /* nav bar styles end */
 /* header styles start */
 header{
-    width: 1551px;
+    max-width: 1551px;
     margin: 0px auto;
     background-image:   linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(./assets/banner.jpg);
     background-repeat: no-repeat;
     background-position: center ;
-    background-size: 100%;   
+    background-size: cover;   
 }
 .header-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*  */
 }
 .header-tittle{
     font-size: 5rem;
@@ -96,10 +96,10 @@ header{
 }
 /* header styles end */
 /* meet the speaker styles start */
-.Meet-the-Speakers-container{
-    width: 1440px;
+.Meet-the-Speakers-section{
+    max-width: 1440px;
     margin: 0px auto;
-    padding: 80px 59.5px 136px 59.5px;
+    /* padding: 80px 59.5px 136px 59.5px; */
 }
 .speaker-header{
     font-size: 3.5rem;
@@ -146,9 +146,9 @@ header{
 
 /* Secure Your Spot start */
 .secure-your-spot-container{
-    width: 1320px;
+    max-width: 1320px;
     margin: 73px auto 50px auto;
-    padding: 0px 60px 80px 60px;
+    /* padding: 0px 60px 80px 60px; */
 }
 .spot-text-content{
     display: flex;
@@ -243,7 +243,7 @@ header{
     color: #2563EB;
 }
 .middle-card-btn{
-      background-color: #2563EB;
+     background-color: #2563EB;
     border-radius: 8px;
     border: solid #2563EB;
     font-size:0.875rem ;
@@ -280,7 +280,7 @@ header{
 
  /* footer-start */
  footer{
-     width: 1551px;
+    max-width: 1551px;
     margin: 0px auto;
     background-color: #0D1B2A;
  }
