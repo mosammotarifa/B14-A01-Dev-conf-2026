@@ -94,3 +94,163 @@ header{
     text-align: center;
 }
 /* header styles end */
+/* meet the speaker styles start */
+.Meet-the-Speakers-container{
+    width: 1440px;
+    margin: 0px auto;
+    padding: 80px 59.5px 136px 59.5px;
+}
+.speaker-header{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color:#000102 ;
+    padding-bottom: 56px;
+    text-align: center;
+}
+.speakers-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px; 
+}
+.speaker-content{
+    border:0.5px solid #E5E7EB;
+    border-radius: 12px;
+}
+.speakers-container img{
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;   
+}
+.speaker-info{
+    padding: 24px;
+}
+.speaker-skill{
+    font-size:0.75rem ;
+    font-weight: 600;
+    color: #2563EB;
+    margin-bottom: 8px;
+}
+.speaker-name{
+    font-size:1.25rem ;
+    font-weight: 700;
+    color:#0D1B2A ;
+    margin-bottom: 8px;
+}
+.speaker-position{
+    font-size:0.875rem ;
+    font-weight: 400;
+    color:#575757 ;
+}
+/*  meet the speaker styles end */
+
+
+/* Secure Your Spot start */
+.secure-your-spot-container{
+    width: 1320px;
+    margin: 73px auto 50px auto;
+    padding: 0px 60px 80px 60px;
+}
+.spot-text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.spot-header{
+    font-size: 3rem;
+    font-weight: 700;
+    color:#0D1B2A;
+}
+.spot-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color:rgba(87, 87, 87, 1) ;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+    margin: 48px 80.2px 0px 80.02px;
+}
+.card-content{
+    padding: 32px;
+    border-radius: 12px;
+    border: solid #E5E7EB;
+}
+.card-content hr{
+    border: 1px solid #E5E7EB;
+    
+}
+.card-content ul{
+    margin-top: 20px;
+}
+.card-content ul li{
+    font-size:0.875rem ;
+    font-weight: 400;
+    color: #333333;
+    list-style-position: inside;
+}
+.card-content ul li::marker{
+    color: #2563EB;
+}
+.card-top{
+    font-size:0.8125rem ;
+    font-weight: 600;
+    color: #888888;
+}
+.card-doller{
+    color: #0D1B2A;
+    font-size:2.75rem ;
+    font-weight: 800;
+}
+.card-third-line{
+    margin-bottom: 20px;
+}
+.card-btn{
+    background-color: white;
+    border-radius: 8px;
+    border: solid #2563EB;
+    font-size:0.875rem ;
+    font-weight: 600;
+    color: #2563EB;
+    padding: 11px 106.33px;
+    margin-top: 20px;
+    width: 100%;
+}
+.middle-card-content{
+    padding: 32px;
+    border-radius: 12px;
+    background-color: #0D1B2A;
+}
+.middle-card-content hr{
+    border:.5px solid rgba(255, 255, 255, 0.1);
+}
+.middle-card-content ul{
+    margin-top: 20px;
+}
+.middel-card-doller{
+     color: white;
+    font-size:2.75rem ;
+    font-weight: 800;
+}
+.middle-card-content ul li{
+    font-size:0.875rem ;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    list-style-position: inside;
+}
+.middle-card-content ul li::marker{
+    color: #2563EB;
+}
+.middle-card-btn{
+      background-color: #2563EB;
+    border-radius: 8px;
+    border: solid #2563EB;
+    font-size:0.875rem ;
+    font-weight: 600;
+    color: white;
+    padding: 11px 106.33px;
+    margin-top: 20px;
+    width: 100%;
+}
+ /* Secure Your Spot end */
+
