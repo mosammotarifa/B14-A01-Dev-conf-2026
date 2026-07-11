@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2>my  queation was="I'm building a website about Developer Conferences on 2026.  Act as a UI/UX designer. Suggest a new section . & match the design. Include the section title, text, button, and layout idea.   ok go a head"</h2>
+   my  queation was
+   "I am building a website about Developer Conferences on 2026.  Act as a UI/UX designer. Suggest a new section . & match the design. Include the section title, text, button, and layout idea.   ok go a head"
     
-<h1> By chatgpt giving prompt </h1>
+ By chatgpt giving prompt:
 
 Explore Conference Tracks
 Heading
@@ -104,5 +97,3 @@ Increase the shadow.
 Change the button background to your primary blue (#2563EB).
 
 This section will feel like a natural continuation of your current design and reinforce the theme of a modern 2026 developer conference.
-</body>
-</html>
