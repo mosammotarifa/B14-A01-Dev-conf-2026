@@ -9,7 +9,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 
@@ -51,7 +51,8 @@ nav{
 /* nav bar styles end */
 /* header styles start */
 header{
-    width: 100%;
+    width: 1551px;
+    margin: 0px auto;
     background-image:   linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(./assets/banner.jpg);
     background-repeat: no-repeat;
     background-position: center ;
@@ -256,7 +257,8 @@ header{
 
  /* footer-start */
  footer{
-    width: 100%;
+     width: 1551px;
+    margin: 0px auto;
     background-color: #0D1B2A;
  }
  .footer-section{
