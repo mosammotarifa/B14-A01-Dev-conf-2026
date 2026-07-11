@@ -254,3 +254,27 @@ header{
 }
  /* Secure Your Spot end */
 
+ /* footer-start */
+ footer{
+    width: 100%;
+    background-color: #0D1B2A;
+ }
+ .footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+ }
+ .footer-section hr{
+     border:.5px solid rgba(255, 255, 255, 0.1);
+ }
+ .footer-section small{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.4);
+ }
+ .footer-middle-part{
+    display: flex;
+    flex-direction: column;
+    
+ }
