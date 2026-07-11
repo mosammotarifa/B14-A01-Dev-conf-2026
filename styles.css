@@ -8,12 +8,8 @@
 }
 *{
     margin: 0px;
-    padding: 0px;
-    /* border: 1px solid red; */
-   
+    padding: 0px; 
 }
-
-
 /* nav bar styles start */
 nav{
     max-width: 1320px;
@@ -50,6 +46,8 @@ nav{
     border: none;
 }
 /* nav bar styles end */
+
+
 /* header styles start */
 header{
     max-width: 1551px;
@@ -95,11 +93,12 @@ header{
     text-align: center;
 }
 /* header styles end */
+
+
 /* meet the speaker styles start */
 .Meet-the-Speakers-section{
     max-width: 1440px;
-    margin: 0px auto;
-    /* padding: 80px 59.5px 136px 59.5px; */
+    margin: 0px auto; 
 }
 .speaker-header{
     font-size: 3.5rem;
@@ -147,8 +146,7 @@ header{
 /* Secure Your Spot start */
 .secure-your-spot-container{
     max-width: 1320px;
-    margin: 73px auto 50px auto;
-    /* padding: 0px 60px 80px 60px; */
+    margin: 73px auto 50px auto;  
 }
 .spot-text-content{
     display: flex;
@@ -178,8 +176,7 @@ header{
     border: solid #E5E7EB;
 }
 .card-content hr{
-    border: 1px solid #E5E7EB;
-    
+    border: 1px solid #E5E7EB; 
 }
 .card-content ul{
     margin-top: 20px;
@@ -254,13 +251,14 @@ header{
     width: 100%;
 }
  /* Secure Your Spot end */
+
+
  /* Event Schedule start*/
     .skills-cards{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 30px;
         margin-top: 20px;
-        
     }
     .single-skill-card{
         padding: 10px;
